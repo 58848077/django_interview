@@ -9,8 +9,12 @@ from rest_framework import status
 class InterviewView(APIView):
     def get(self, request, format=None):
         """
+        寫出API能夠：
         1. 取得特定company的customers
+        或
         2. 取得特定last_name的customers
+        或
+        3. 取得所有customers
         """
         pass
 

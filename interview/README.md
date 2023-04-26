@@ -20,7 +20,7 @@ class Customer(models.Model):
 |1 |A-Link
 |2 |Banky
 |3 |CRS
-|... |...
+
 
 #### Customer
 |id |first_name |last_name |create_time |edit_time| company
@@ -30,7 +30,7 @@ class Customer(models.Model):
 |3 |Wendy  |Liu   |2022-12-07 10:25:02.743289 |2022-12-29 09:33:05.163253 |2
 |4 |Peter  |Huang |2022-12-15 10:25:02.743289 |2022-12-29 09:33:05.163253 |2
 |5 |Johnny |Wang  |2022-12-23 10:25:02.743289 |2022-12-29 09:33:05.163253 |3
-|... |... |... |... |... |...
+  
 
 
 ## 請寫出:
@@ -50,4 +50,3 @@ class Tag(models.Model):
 |1 |Tag-1
 |2 |Tag-2
 |3 |Tag-3
-|... |...
